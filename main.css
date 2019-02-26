@@ -1,0 +1,233 @@
+
+ body {
+    
+    margin: 0; /* Обнуляем отступы браузера */
+    background: #FBFBF9;/*Цвет всей страницы*/
+    text-align: justify;/*Выравнивание текста по ширине */
+   }
+
+/*Заголовки страниц*/
+   h1 {
+   	position: absolute;
+	color: black;
+	font-family: Calibri;
+	font-size: 33px;
+	font-weight: normal;
+	font-style: oblique;
+	text-align: center;
+	
+	margin: 3px;
+	margin-left: 60px;   
+   }
+/*Заголовки статей*/
+h2 {
+	color: gray;/**/
+	font-family: Calibri;/**/
+	font-style: oblique;/**/
+	font-variant: small-caps;/**/
+	font-size: 25px;/**/	
+}
+/*Подзаголовки*/
+h3 {
+	color: dimgray;
+	font-weight: bold;
+	font-family: Calibri;
+	font-style: oblique;
+}
+/*Основной текст*/
+h4{
+
+	font-family: Calibri;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 19px;
+}
+
+img{
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7; 
+}
+
+.str{
+
+	width: 50px;
+	height: 50px;
+
+	 top: 550px; 
+	 left: 1255px;
+	 position: absolute;;
+}
+
+.left{
+	width: 50px;
+	height: 50px;
+
+	top: 550px; 
+	left: 25px;
+	position: absolute;;
+}
+
+.vk{
+	width: 50px;
+	height: 50px;
+	top: 550px; 
+	left: 1155px;
+	position: absolute;;
+
+}
+
+.git{
+	width: 50px;
+	height: 50px;
+	top: 550px; 
+	left: 1255px;
+	position: absolute;;
+
+}
+
+.author{
+
+	background: url(fons.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	
+} 
+
+.author div{
+	margin-top:40px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.author h3{
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+
+}
+
+.author h4{
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+
+}
+
+h5{
+	/*margin: 150px 100px 100px 375px;*/
+	position: absolute;
+	top: 55px;
+	left: 200px;
+	/*margin-top:130px;*/
+	text-align: justify;
+	font-family: Calibri;
+	font-weight: normal;
+	
+	font-size: 40px;
+	text-align: center;
+	
+	color: white;
+}
+
+
+
+   #head { /* Верхний блок */
+   
+	height: 100px; 
+
+   }
+
+	#headr { /* Верхний блок требований*/
+    height: 100px; 
+	margin: 100px 40px 50px 255px;
+
+   }
+
+/*Основной текст документа тербований*/
+   #cont {
+   	width: auto;
+   	margin: 0px 40px 40px 2px; 
+   }
+/*Верхний правый угол требований*/
+   #blok {
+   	list-style: none;
+   	text-align: right;
+   	float: right;
+   	width: 220px;
+   	margin: -80px 40px 40px 2px; 
+   }
+   #blok ul{
+   	list-style: none;
+   }
+
+   #menu { /* Левая колонка */
+   	position: fixed;/**/
+   	list-style: none;/**/
+   	padding: 0;/**/
+    float: left; /* Обтекание справа */
+    width: 250px; /* Ширина колонки */
+    margin: 23px 40px 50px 10px; /* Значения отступов */
+   }
+   #menu ul {
+    list-style: none;
+    }
+   #menu li {
+    padding: 10px, 20px; /* Поля вокруг ссылок */
+    /*background: linear-gradient(to left,gainsboro 0%, white, gainsboro);*/
+
+    border-bottom: 1px solid grey;
+    
+    font-size: 20px;/
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+    margin-bottom: 3px;
+
+    font-family: Calibri;
+	font-style: oblique;
+   }
+
+   #menu li:last-child {border-bottom: none;}
+   #menu a { 
+
+    color: black;
+    margin: 3px; /* Отступы вокруг */
+    font-size: 20px; /* Размер текста */
+    text-decoration: none; /* Убираем подчеркивание текста */
+   }
+   #menu a:hover { 
+    
+    
+    margin: 0; /* Убираем поля */
+   }
+
+   #content { /* Правая колонка */
+   	 width: 1000px;
+   	 margin: 1px 5px 2px 270px; /* Значения отступов */
+   /* padding: 5px; /* Поля вокруг текста */
+    /*border: 1px solid #333; /* Параметры рамки */
+   }
+   #content ol{
+   	list-style: none;
+   	counter-reset: li;
+   }
+   #content li:before {
+   	counter-increment: li;
+   	content: counters(li, ".") ". ";
+   }
+
+   #foot { /* Нижний блок */
+    background: gainsboro; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    color: black; /* Цвет текста */
+    clear: both; /* Отменяем обтекание */
+    font-family: Calibri;
+	font-style: oblique;
+
+	font-size: 18px;
+   }
+
