@@ -67,7 +67,7 @@ img{
 
 	top: 550px; 
 	left: 25px;
-	position: absolute;;
+	position: absolute;
 }
 
 .vk{
@@ -75,7 +75,7 @@ img{
 	height: 50px;
 	top: 550px; 
 	left: 1155px;
-	position: absolute;;
+	position: absolute;
 
 }
 
@@ -84,23 +84,36 @@ img{
 	height: 50px;
 	top: 550px; 
 	left: 1255px;
-	position: absolute;;
+	position: absolute;
 
 }
 
 .author{
 
-	background: url(fons.jpg);
+	background: url(f.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 
 	
 } 
 
+/*оформление ссылок*/
+   A:link { text-decoration: none;  }
+   A:visited { text-decoration: none; }
+   A:active { text-decoration: none; }
+   A:hover { 
+    font-size: 21px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: blue; /* Цвет ссылки */
+   }
+
+
 .author div{
-	margin-top:40px;
-	margin-left: 40px;
+	margin-top:120px;
+	margin-left: 150px;
 	text-align: center;
+
+
 }
 
 .author h3{
@@ -116,6 +129,32 @@ img{
 	font-family: Calibri;
 	font-size: 20px;
 	color: black;
+
+}
+
+.liter div {
+	margin-top:100px;
+	margin-left: 80px;
+
+	
+
+}
+
+
+.lit {
+	width: 130px;
+	height: 80px;
+
+	top: 10px; 
+	left: 25px;
+	position: absolute;
+
+}
+
+.liter{
+	background: url(f.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 
 }
 
@@ -171,7 +210,7 @@ h5{
    	list-style: none;/**/
    	padding: 0;/**/
     float: left; /* Обтекание справа */
-    width: 250px; /* Ширина колонки */
+    width: 290px; /* Ширина колонки */
     margin: 23px 40px 50px 10px; /* Значения отступов */
    }
    #menu ul {
@@ -183,7 +222,7 @@ h5{
 
     border-bottom: 1px solid grey;
     
-    font-size: 20px;/
+    font-size: 18px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
     margin-bottom: 3px;
 
@@ -207,7 +246,7 @@ h5{
 
    #content { /* Правая колонка */
    	 width: 1000px;
-   	 margin: 1px 5px 2px 270px; /* Значения отступов */
+   	 margin: 1px 5px 2px 330px; /* Значения отступов */
    /* padding: 5px; /* Поля вокруг текста */
     /*border: 1px solid #333; /* Параметры рамки */
    }
